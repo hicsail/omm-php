@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Bank System</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="nav1.css">
+<link rel="stylesheet" type="text/css" href="transaction.css">
+<link rel="stylesheet" type="text/css" href="header.css">
+  <link rel="stylesheet" type="text/css" href="instr.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+<body onload="startTimer(this)">
+    
+<div class="container-fluid">
+ <p id="errMsg"></p>
+    
+
+
+ 
+    
+<script>
+       var t = 0, b=0;
+        var i;
+
+        function NextButton(e)
+        {
+          var Mydiv = document.getElementById("2000");
+          var button = document.createElement('BUTTON');
+          button.setAttribute("class","button");
+          button.innerHTML = 'Next';
+          button.setAttribute("onclick" ,"window.location.href='task_instruction.php'" ) ;
+          Mydiv.appendChild(button);
+        }
+        function HelpAlert(e)
+        {
+          alert("Help wanted!!");
+        }
+
+        function startTimer(e){
+            var a = e.innerHTML;
+            //alert(a);
+            i = window.setInterval(()=>{
+                t++;
+                showTime(getTime(t));
+            },1000) 
+            e.setAttribute("onclick","saveResponse(this)");
+             //b+=1;
+            saveTime(getTime(t),a);
+//alert("You have chosen the home tab");
+        
+        }
+
+        function stopTimer(e){
+            window.clearInterval(i);
+            var a = e.innerHTML;
+            //alert(a);
+            e.setAttribute("onclick","startTimer(this)");
+    
+          //alert(a);
+          b+=1;
+         
+          saveTime(getTime(t),a,b);
+          
+            }
+  
+
+
+
+
+        function saveResponse(e){
+          //"setColor(e);
+          var a = e.innerHTML;
+          //alert(a);
+          //b+=1;
+          saveTime(getTime(t),a);
+          alert("You have made the wrong choice");
+        }
+
+        function showTime(time) {
+                document.getElementById("time").innerHTML= time;
+        }
+
+        function getTime(m){
+            let hh = "" + Math.floor(m/3600);
+            m=m%3600;
+            let mm = "" + Math.floor(m/60);
+            m=m%60;
+            let ss = "" + m;
+
+            return  hh.padStart(2,"0") + ":" + mm.padStart(2,"0") + ":" + ss.padStart(2,"0");
+        }
+
+
+
+        function saveTime(time,a) {
+
+          
+            if(t>0){
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status != 200) {
+                        document.getElementById("errMsg").innerHTML = "Exception while saving data : " + this.responseText;
+                    } else {
+                        document.getElementById("errMsg").innerHTML = "";
+                    }
+                };
+                xmlhttp.open("POST", "input.php", true);
+                xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlhttp.send("time=" + time + "&a=" + a);
+          
+            }
+        }
+     
+</script>
+
+<nav class="navbar navbar-expand-md navbar-light" style="background-color: #DC143C;"> 
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav_item" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="nav_item">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav_item active">
+        <a class="nav-link" href="#" onclick="saveResponse(this)" style="color: white">Account</a>
+      </li>
+      <li class="nav_item">
+        <a class="nav-link"  onclick="saveResponse(this)" style="color: white">Services</a>
+      </li>
+       <li class="nav_item">
+        <a class="nav-link" href="#" onclick="saveResponse(this)" style="color: white">Pay & Transfer</a>
+      </li>
+      <li class="nav_item">
+        <a class="nav-link" href="#" onclick="saveResponse(this)" style="color: white">Investments</a>
+      </li>
+      <li class="nav_item">
+        <a class="nav-link"  href="#" onclick="saveResponse(this)" style="color: white">Logout</a>
+      </li>
+    </ul>
+     <li class="nav_item">
+        <button value="help" style = "background-color:#33CEFF; font-family: georgia; color: white; position:absolute; right:30px;" onclick="HelpAlert(this)">Help</button>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+<hr>
+<br>
+<div class="jumbotron"> 
+
+<div class="container">
+  <div class="jumbotron">
+    <p class="text"><strong>To Download the Statements, Please click on the link given below.</strong></p>
+<button class="tablink" color = "grey" onclick="openPage('2018', this, 'crimson')" id="defaultOpen">2019 Statements</button>
+<button class="tablink" color = "grey" onclick="openPage('2017', this, 'crimson')" >2018 Statements</button>
+
+<div id="2018" class="tabcontent">
+
+<a href="" onclick="saveResponse(this)"  style="color: crimson; text-decoration: underline;">2019 Annual account Summary</a><br>
+
+<div onclick="saveResponse(this)">All Dates Are Statement Ending dates</div>
+<hr>
+  <span onclick="saveResponse(this)">August 18</span>
+ <a href="" onclick="saveResponse(this)" style="  color: crimson;
+  float: right;"> &nbsp
+View</a>
+<a href="BankStatement.pdf" download="BankStatement.pdf"  onclick="NextButton(this)" style=" color: crimson;float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a>
+  <hr>
+  <span onclick="saveResponse(this)">July 14</span> 
+  <a href="" onclick="saveResponse(this)" style="  color: crimson;
+  float: right;"> &nbsp
+View</a>
+<a href=""  onclick="saveResponse(this)"  style=" color:crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a>
+    <hr>
+      <span onclick="saveResponse(this)">June 18</span>
+      <a href=""  onclick="saveResponse(this)"  style="  color: crimson;
+  float: right;"> &nbsp
+View</a>
+<a href="" onclick="saveResponse(this)"   style=" color: crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a><hr>
+        <span onclick="saveResponse(this)">May 13</span>
+        <a href=""  onclick="saveResponse(this)"  style="  color: crimson;
+  float: right;"> &nbsp
+View</a>
+<a href="" onclick="saveResponse(this)"   style=" color:crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a><hr>
+          <span onclick="saveResponse(this)">April 20</span>
+          <a href="" onclick="saveResponse(this)" style="  color: crimson;
+  float: right;"> &nbsp
+View</a>
+<a href="" onclick="saveResponse(this)"style=" color: crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a><hr>
+            <span onclick="saveResponse(this)">March 19</span>
+            <a href=""  onclick="saveResponse(this)"  style="  color:crimson;
+  float: right;"> &nbsp
+View</a>
+<a href="" onclick="saveResponse(this)"   style=" color:crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a><hr>
+              <span onclick="saveResponse(this)">February 11</span>
+              <a href="" onclick="saveResponse(this)" style="  color:crimson;
+  float: right;"> &nbsp
+View</a>
+<a href="" onclick="saveResponse(this)"    style=" color: crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a><hr>
+                <span onclick="saveResponse(this)">January 6</span>
+                <a href="" onclick="saveResponse(this)" style="  color: crimson;
+  float: right;"> &nbsp
+View</a>
+<a href=""  onclick="saveResponse(this)"  style=" color: crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a><hr>
+</div>
+
+<div id="2017" class="tabcontent">
+  <a href=""  onclick="saveResponse(this)" style="color: crimson; text-decoration: underline;">2018 Annual account Summary</a><br>
+
+<div onclick="saveResponse(this)">All Dates Are Statement Ending dates</div>
+<hr><span onclick="saveResponse(this)">December 18</span> 
+<a href="" onclick="saveResponse(this)" style="  color: crimson;
+  float: right;"> &nbsp
+View</a>
+<a href="" onclick="saveResponse(this)" style=" color: crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a>
+
+<hr><span onclick="saveResponse(this)">November 18</span> 
+<a href="" onclick="saveResponse(this)" style="  color: crimson;
+  float: right;"> &nbsp
+View</a>
+<a href="" onclick="saveResponse(this)" style=" color: crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a>
+
+<hr><span onclick="saveResponse(this)">October 18</span> 
+<a href="" onclick="saveResponse(this)" style="  color: crimson;
+  float: right;"> &nbsp
+View</a>
+<a href="" onclick="saveResponse(this)" style=" color: crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a>
+
+<hr><span onclick="saveResponse(this)">September 18</span> 
+<a href="" onclick="saveResponse(this)" style="  color: crimson;
+  float: right;"> &nbsp
+View</a>
+<a href="" onclick="saveResponse(this)" style=" color: crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a>
+
+<hr><span onclick="saveResponse(this)">August 18</span> 
+<a href="" onclick="saveResponse(this)" style="  color: crimson;
+  float: right;"> &nbsp
+View</a>
+<a href="" onclick="saveResponse(this)" style=" color: crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a>
+  <hr>
+  <span onclick="saveResponse(this)">July 14</span>
+  <a href="" onclick="saveResponse(this)" style="  color: crimson;
+  float: right;"> &nbsp
+View</a>
+<a href="" onclick="saveResponse(this)" style=" color: crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a>
+    <hr>
+      <span onclick="saveResponse(this)">June 18</span>
+      <a href="" onclick="saveResponse(this)" style="  color: crimson;
+  float: right;"> &nbsp
+View</a>
+<a href="" onclick="saveResponse(this)" style=" color: crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a><hr>
+        <span onclick="saveResponse(this)">May 13</span>
+        <a href="" onclick="saveResponse(this)" style="  color: crimson;
+  float: right;"> &nbsp
+View</a>
+<a href="" onclick="saveResponse(this)" style=" color: crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a><hr>
+          <span onclick="saveResponse(this)">April 20</span>
+          <a href="" onclick="saveResponse(this)" style="  color: crimson;
+  float: right;"> &nbsp
+  
+View</a>
+<a href="" onclick="saveResponse(this)" style=" color: crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a><hr>
+
+          <span onclick="saveResponse(this)">March 20</span>
+          <a href="" onclick="saveResponse(this)" style="  color: crimson;
+  float: right;"> &nbsp
+  
+View</a>
+<a href="" onclick="saveResponse(this)" style=" color: crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a><hr>
+
+          <span onclick="saveResponse(this)">Febraury 20</span>
+          <a href="" onclick="saveResponse(this)" style="  color: crimson;
+  float: right;"> &nbsp
+  
+View</a>
+<a href="" onclick="saveResponse(this)" style=" color: crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a><hr>
+
+          <span onclick="saveResponse(this)">January 20</span>
+          <a href="" onclick="saveResponse(this)" style="  color: crimson;
+  float: right;"> &nbsp
+  
+View</a>
+<a href="" onclick="saveResponse(this)" style=" color: crimson;
+  float: right; border-right: 2px solid grey; height: 25px; ">&nbsp Download &nbsp</a><hr>
+            
+</div>
+</div>
+</div>
+<hr>
+<div class="container-fluid">
+  <div class="row  text-center">
+    <div class="col-12">
+       <p class="text" onclick="saveResponse(this)"><strong>Follow Us</strong></p>
+    </div>
+    <div class="col-12 social padding">
+      <a href="#" onclick="saveResponse(this)"> <i class="fab fa-facebook fa-3x fa-fw"></i></a>
+      <a href="#" onclick="saveResponse(this)"> <i class="fab fa-twitter fa-3x fa-fw"></i></a>
+      <a href="#" onclick="saveResponse(this)"> <i class="fab fa-google-plus-g fa-3x fa-fw"></i></a>
+      <a href="#" onclick="saveResponse(this)"> <i class="fab fa-instagram fa-3x fa-fw"></i></a>
+      <a href="#" onclick="saveResponse(this)"> <i class="fab fa-youtube fa-3x fa-fw"></i></a>
+      <div id = "2000"></div>
+    </div>
+    <br>
+    <hr>
+  </div>
+</div>
+
+<hr>
+<footer style = "font-family: georgia;">
+     <div class="row text-center">
+      <div class="col-md-4">
+       
+          <h5 onclick="saveResponse(this)">Mortgage</h5>
+ <p onclick="saveResponse(this)">Home equity
+        </p>
+        <p onclick="saveResponse(this)">Auto Mobile</p>
+        <p onclick="saveResponse(this)">Lending</p>
+      </div>
+      <div class="col-md-4">
+        <h5 onclick="saveResponse(this)">Investment Planning</h5>
+ <p onclick="saveResponse(this)">Personalized
+        </p>
+        <p onclick="saveResponse(this)">Not FDIC Insured</p>
+        <p onclick="saveResponse(this)">Risk Level</p>
+      </div>
+      <div class="col-md-4">
+        
+        <h5 onclick="saveResponse(this)">Help & Support</h5>
+        <p onclick="saveResponse(this)">Contact
+        </p>
+        <p onclick="saveResponse(this)">Security Center</p>
+        <p onclick="saveResponse(this)">Help & FAQs</p>
+
+      </div> 
+      <hr>
+
+      
+  
+</div>
+</footer>
+
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+document.getElementById("defaultOpen").click();
+
+function newFunction(){
+  alert("Error:You have made a wrong choice");
+}
+</script>

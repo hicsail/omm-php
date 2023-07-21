@@ -1,0 +1,201 @@
+[Fri Sep 09 15:08:20.028128 2022] [ssl:warn] [pid 3496:tid 344] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:08:20.075005 2022] [ssl:warn] [pid 3496:tid 344] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:08:20.121880 2022] [mpm_winnt:notice] [pid 3496:tid 344] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 configured -- resuming normal operations
+[Fri Sep 09 15:08:20.121880 2022] [mpm_winnt:notice] [pid 3496:tid 344] AH00456: Apache Lounge VS16 Server built: Mar 16 2022 11:26:15
+[Fri Sep 09 15:08:20.121880 2022] [core:notice] [pid 3496:tid 344] AH00094: Command line: 'C:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Sep 09 15:08:20.121880 2022] [mpm_winnt:notice] [pid 3496:tid 344] AH00418: Parent: Created child process 15104
+[Fri Sep 09 15:08:20.840690 2022] [ssl:warn] [pid 15104:tid 352] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:08:20.887484 2022] [ssl:warn] [pid 15104:tid 352] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:08:20.934357 2022] [mpm_winnt:notice] [pid 15104:tid 352] AH00354: Child: Starting 150 worker threads.
+[Fri Sep 09 15:08:52.851497 2022] [ssl:warn] [pid 3180:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:08:52.898368 2022] [ssl:warn] [pid 3180:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:08:52.945242 2022] [mpm_winnt:notice] [pid 3180:tid 328] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 configured -- resuming normal operations
+[Fri Sep 09 15:08:52.945242 2022] [mpm_winnt:notice] [pid 3180:tid 328] AH00456: Apache Lounge VS16 Server built: Mar 16 2022 11:26:15
+[Fri Sep 09 15:08:52.945242 2022] [core:notice] [pid 3180:tid 328] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Sep 09 15:08:52.945242 2022] [mpm_winnt:notice] [pid 3180:tid 328] AH00418: Parent: Created child process 15552
+[Fri Sep 09 15:08:53.648368 2022] [ssl:warn] [pid 15552:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:08:53.695242 2022] [ssl:warn] [pid 15552:tid 364] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:08:53.742117 2022] [mpm_winnt:notice] [pid 15552:tid 364] AH00354: Child: Starting 150 worker threads.
+[Fri Sep 09 15:09:19.684181 2022] [ssl:warn] [pid 12716:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:09:19.731056 2022] [core:warn] [pid 12716:tid 328] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Sep 09 15:09:19.731056 2022] [ssl:warn] [pid 12716:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:09:19.762306 2022] [mpm_winnt:notice] [pid 12716:tid 328] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 configured -- resuming normal operations
+[Fri Sep 09 15:09:19.762306 2022] [mpm_winnt:notice] [pid 12716:tid 328] AH00456: Apache Lounge VS16 Server built: Mar 16 2022 11:26:15
+[Fri Sep 09 15:09:19.762306 2022] [core:notice] [pid 12716:tid 328] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Sep 09 15:09:19.777934 2022] [mpm_winnt:notice] [pid 12716:tid 328] AH00418: Parent: Created child process 6976
+[Fri Sep 09 15:09:20.311717 2022] [ssl:warn] [pid 6976:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:09:20.358587 2022] [ssl:warn] [pid 6976:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:09:20.389837 2022] [mpm_winnt:crit] [pid 6976:tid 328] (OS 109)The pipe has been ended.  : AH00404: Child: Unable to read socket data from parent
+[Fri Sep 09 15:16:50.580798 2022] [ssl:warn] [pid 13284:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:16:50.627673 2022] [core:warn] [pid 13284:tid 328] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Sep 09 15:16:50.627673 2022] [ssl:warn] [pid 13284:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:16:50.674546 2022] [mpm_winnt:notice] [pid 13284:tid 328] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 configured -- resuming normal operations
+[Fri Sep 09 15:16:50.674546 2022] [mpm_winnt:notice] [pid 13284:tid 328] AH00456: Apache Lounge VS16 Server built: Mar 16 2022 11:26:15
+[Fri Sep 09 15:16:50.674546 2022] [core:notice] [pid 13284:tid 328] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Sep 09 15:16:50.674546 2022] [mpm_winnt:notice] [pid 13284:tid 328] AH00418: Parent: Created child process 11048
+[Fri Sep 09 15:16:51.231718 2022] [ssl:warn] [pid 11048:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:16:51.278593 2022] [ssl:warn] [pid 11048:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:16:51.309844 2022] [mpm_winnt:notice] [pid 11048:tid 328] AH00354: Child: Starting 150 worker threads.
+[Fri Sep 09 15:17:55.535845 2022] [php:error] [pid 11048:tid 1848] [client ::1:51783] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'creditcard' in C:\\xampp\\htdocs\\CreditCard\\connect.php:7\nStack trace:\n#0 C:\\xampp\\htdocs\\CreditCard\\connect.php(7): mysqli_connect('', 'root', '', 'CreditCard')\n#1 C:\\xampp\\htdocs\\CreditCard\\index.php(1): include_once('C:\\\\xampp\\\\htdocs...')\n#2 {main}\n  thrown in C:\\xampp\\htdocs\\CreditCard\\connect.php on line 7
+[Fri Sep 09 15:19:35.017046 2022] [ssl:warn] [pid 12652:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:19:35.062046 2022] [core:warn] [pid 12652:tid 360] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Sep 09 15:19:35.064047 2022] [ssl:warn] [pid 12652:tid 360] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:19:35.103046 2022] [mpm_winnt:notice] [pid 12652:tid 360] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 configured -- resuming normal operations
+[Fri Sep 09 15:19:35.103046 2022] [mpm_winnt:notice] [pid 12652:tid 360] AH00456: Apache Lounge VS16 Server built: Mar 16 2022 11:26:15
+[Fri Sep 09 15:19:35.103046 2022] [core:notice] [pid 12652:tid 360] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Sep 09 15:19:35.110046 2022] [mpm_winnt:notice] [pid 12652:tid 360] AH00418: Parent: Created child process 10356
+[Fri Sep 09 15:19:35.669045 2022] [ssl:warn] [pid 10356:tid 324] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:19:35.714046 2022] [ssl:warn] [pid 10356:tid 324] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:19:35.755048 2022] [mpm_winnt:notice] [pid 10356:tid 324] AH00354: Child: Starting 150 worker threads.
+[Fri Sep 09 15:25:59.436446 2022] [ssl:warn] [pid 9356:tid 324] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:25:59.482445 2022] [core:warn] [pid 9356:tid 324] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Sep 09 15:25:59.484446 2022] [ssl:warn] [pid 9356:tid 324] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:25:59.524446 2022] [mpm_winnt:notice] [pid 9356:tid 324] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 configured -- resuming normal operations
+[Fri Sep 09 15:25:59.524446 2022] [mpm_winnt:notice] [pid 9356:tid 324] AH00456: Apache Lounge VS16 Server built: Mar 16 2022 11:26:15
+[Fri Sep 09 15:25:59.524446 2022] [core:notice] [pid 9356:tid 324] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Sep 09 15:25:59.532446 2022] [mpm_winnt:notice] [pid 9356:tid 324] AH00418: Parent: Created child process 8464
+[Fri Sep 09 15:26:00.093445 2022] [ssl:warn] [pid 8464:tid 320] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:26:00.140465 2022] [ssl:warn] [pid 8464:tid 320] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 09 15:26:00.183446 2022] [mpm_winnt:notice] [pid 8464:tid 320] AH00354: Child: Starting 150 worker threads.
+[Mon Sep 12 16:11:03.726775 2022] [ssl:warn] [pid 4352:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 12 16:11:03.773667 2022] [core:warn] [pid 4352:tid 328] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 12 16:11:03.773667 2022] [ssl:warn] [pid 4352:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 12 16:11:03.804918 2022] [mpm_winnt:notice] [pid 4352:tid 328] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 configured -- resuming normal operations
+[Mon Sep 12 16:11:03.804918 2022] [mpm_winnt:notice] [pid 4352:tid 328] AH00456: Apache Lounge VS16 Server built: Mar 16 2022 11:26:15
+[Mon Sep 12 16:11:03.804918 2022] [core:notice] [pid 4352:tid 328] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Sep 12 16:11:03.820544 2022] [mpm_winnt:notice] [pid 4352:tid 328] AH00418: Parent: Created child process 15896
+[Mon Sep 12 16:11:04.398664 2022] [ssl:warn] [pid 15896:tid 300] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 12 16:11:04.445525 2022] [ssl:warn] [pid 15896:tid 300] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 12 16:11:04.492399 2022] [mpm_winnt:notice] [pid 15896:tid 300] AH00354: Child: Starting 150 worker threads.
+[Mon Sep 12 16:12:26.629486 2022] [php:error] [pid 15896:tid 1860] [client ::1:50262] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'creditcard.registration' doesn't exist in engine in C:\\xampp\\htdocs\\CreditCard\\index.php:16\nStack trace:\n#0 C:\\xampp\\htdocs\\CreditCard\\index.php(16): mysqli_query(Object(mysqli), 'INSERT INTO reg...')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\CreditCard\\index.php on line 16, referer: http://localhost/creditcard/
+[Mon Sep 12 16:14:59.058908 2022] [php:error] [pid 15896:tid 1840] [client ::1:50437] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'creditcard.registration' doesn't exist in engine in C:\\xampp\\htdocs\\CreditCard\\index.php:16\nStack trace:\n#0 C:\\xampp\\htdocs\\CreditCard\\index.php(16): mysqli_query(Object(mysqli), 'INSERT INTO reg...')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\CreditCard\\index.php on line 16, referer: http://localhost/CreditCard/index.php
+[Mon Sep 12 16:27:54.576180 2022] [ssl:warn] [pid 10968:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 12 16:27:54.623061 2022] [core:warn] [pid 10968:tid 328] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 12 16:27:54.623061 2022] [ssl:warn] [pid 10968:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 12 16:27:54.654304 2022] [mpm_winnt:notice] [pid 10968:tid 328] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 configured -- resuming normal operations
+[Mon Sep 12 16:27:54.654304 2022] [mpm_winnt:notice] [pid 10968:tid 328] AH00456: Apache Lounge VS16 Server built: Mar 16 2022 11:26:15
+[Mon Sep 12 16:27:54.654304 2022] [core:notice] [pid 10968:tid 328] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Sep 12 16:27:54.670164 2022] [mpm_winnt:notice] [pid 10968:tid 328] AH00418: Parent: Created child process 14896
+[Mon Sep 12 16:27:55.203421 2022] [ssl:warn] [pid 14896:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 12 16:27:55.250296 2022] [ssl:warn] [pid 14896:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 12 16:27:55.293287 2022] [mpm_winnt:notice] [pid 14896:tid 328] AH00354: Child: Starting 150 worker threads.
+[Mon Sep 12 16:28:45.148812 2022] [php:error] [pid 14896:tid 1832] [client ::1:50786] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'creditcard.logintask' doesn't exist in engine in C:\\xampp\\htdocs\\CreditCard\\getresults.php:12\nStack trace:\n#0 C:\\xampp\\htdocs\\CreditCard\\getresults.php(12): mysqli_query(Object(mysqli), 'SELECT * from l...')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\CreditCard\\getresults.php on line 12, referer: http://localhost/CreditCard/getCSV.php
+[Mon Sep 12 16:29:26.094526 2022] [php:error] [pid 14896:tid 1848] [client ::1:50787] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'creditcard.question1' doesn't exist in engine in C:\\xampp\\htdocs\\CreditCard\\delete.php:28\nStack trace:\n#0 C:\\xampp\\htdocs\\CreditCard\\delete.php(28): mysqli_multi_query(Object(mysqli), 'Truncate table ...')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\CreditCard\\delete.php on line 28, referer: http://localhost/CreditCard/getCSV.php
+[Mon Sep 12 16:31:48.954825 2022] [ssl:warn] [pid 6456:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 12 16:31:49.000888 2022] [core:warn] [pid 6456:tid 328] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 12 16:31:49.000888 2022] [ssl:warn] [pid 6456:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 12 16:31:49.047763 2022] [mpm_winnt:notice] [pid 6456:tid 328] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 configured -- resuming normal operations
+[Mon Sep 12 16:31:49.047763 2022] [mpm_winnt:notice] [pid 6456:tid 328] AH00456: Apache Lounge VS16 Server built: Mar 16 2022 11:26:15
+[Mon Sep 12 16:31:49.047763 2022] [core:notice] [pid 6456:tid 328] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Sep 12 16:31:49.047763 2022] [mpm_winnt:notice] [pid 6456:tid 328] AH00418: Parent: Created child process 3732
+[Mon Sep 12 16:31:49.591963 2022] [ssl:warn] [pid 3732:tid 336] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 12 16:31:49.638880 2022] [ssl:warn] [pid 3732:tid 336] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Sep 12 16:31:49.670564 2022] [mpm_winnt:notice] [pid 3732:tid 336] AH00354: Child: Starting 150 worker threads.
+[Wed Sep 14 14:24:11.647914 2022] [ssl:warn] [pid 9400:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 14:24:11.694787 2022] [core:warn] [pid 9400:tid 328] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Sep 14 14:24:11.694787 2022] [ssl:warn] [pid 9400:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 14:24:11.757289 2022] [mpm_winnt:notice] [pid 9400:tid 328] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 configured -- resuming normal operations
+[Wed Sep 14 14:24:11.757289 2022] [mpm_winnt:notice] [pid 9400:tid 328] AH00456: Apache Lounge VS16 Server built: Mar 16 2022 11:26:15
+[Wed Sep 14 14:24:11.757289 2022] [core:notice] [pid 9400:tid 328] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Sep 14 14:24:11.757289 2022] [mpm_winnt:notice] [pid 9400:tid 328] AH00418: Parent: Created child process 12456
+[Wed Sep 14 14:24:12.412961 2022] [ssl:warn] [pid 12456:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 14:24:12.459833 2022] [ssl:warn] [pid 12456:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 14:24:12.514059 2022] [mpm_winnt:notice] [pid 12456:tid 328] AH00354: Child: Starting 150 worker threads.
+[Wed Sep 14 15:34:09.314624 2022] [ssl:warn] [pid 1088:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 15:34:09.361498 2022] [core:warn] [pid 1088:tid 328] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Sep 14 15:34:09.377123 2022] [ssl:warn] [pid 1088:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 15:34:09.423996 2022] [mpm_winnt:notice] [pid 1088:tid 328] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 configured -- resuming normal operations
+[Wed Sep 14 15:34:09.423996 2022] [mpm_winnt:notice] [pid 1088:tid 328] AH00456: Apache Lounge VS16 Server built: Mar 16 2022 11:26:15
+[Wed Sep 14 15:34:09.423996 2022] [core:notice] [pid 1088:tid 328] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Sep 14 15:34:09.423996 2022] [mpm_winnt:notice] [pid 1088:tid 328] AH00418: Parent: Created child process 3196
+[Wed Sep 14 15:34:10.017735 2022] [ssl:warn] [pid 3196:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 15:34:10.064611 2022] [ssl:warn] [pid 3196:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 15:34:10.095858 2022] [mpm_winnt:notice] [pid 3196:tid 328] AH00354: Child: Starting 150 worker threads.
+[Wed Sep 14 15:48:13.133895 2022] [ssl:warn] [pid 10172:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 15:48:13.165147 2022] [core:warn] [pid 10172:tid 328] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Sep 14 15:48:13.180771 2022] [ssl:warn] [pid 10172:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 15:48:13.212020 2022] [mpm_winnt:notice] [pid 10172:tid 328] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 configured -- resuming normal operations
+[Wed Sep 14 15:48:13.212020 2022] [mpm_winnt:notice] [pid 10172:tid 328] AH00456: Apache Lounge VS16 Server built: Mar 16 2022 11:26:15
+[Wed Sep 14 15:48:13.212020 2022] [core:notice] [pid 10172:tid 328] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Sep 14 15:48:13.227646 2022] [mpm_winnt:notice] [pid 10172:tid 328] AH00418: Parent: Created child process 8864
+[Wed Sep 14 15:48:13.814315 2022] [ssl:warn] [pid 8864:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 15:48:13.861190 2022] [ssl:warn] [pid 8864:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 15:48:13.892439 2022] [mpm_winnt:notice] [pid 8864:tid 328] AH00354: Child: Starting 150 worker threads.
+[Wed Sep 14 17:05:21.193241 2022] [ssl:warn] [pid 14156:tid 180] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 17:05:21.240114 2022] [core:warn] [pid 14156:tid 180] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Sep 14 17:05:21.240114 2022] [ssl:warn] [pid 14156:tid 180] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 17:05:21.286990 2022] [mpm_winnt:notice] [pid 14156:tid 180] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 configured -- resuming normal operations
+[Wed Sep 14 17:05:21.286990 2022] [mpm_winnt:notice] [pid 14156:tid 180] AH00456: Apache Lounge VS16 Server built: Mar 16 2022 11:26:15
+[Wed Sep 14 17:05:21.286990 2022] [core:notice] [pid 14156:tid 180] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Sep 14 17:05:21.302615 2022] [mpm_winnt:notice] [pid 14156:tid 180] AH00418: Parent: Created child process 5864
+[Wed Sep 14 17:05:21.903200 2022] [ssl:warn] [pid 5864:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 17:05:21.950072 2022] [ssl:warn] [pid 5864:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 17:05:21.996967 2022] [mpm_winnt:notice] [pid 5864:tid 328] AH00354: Child: Starting 150 worker threads.
+[Wed Sep 14 17:05:56.009347 2022] [php:error] [pid 5864:tid 1856] [client ::1:52054] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'creditcard.registration' doesn't exist in engine in C:\\xampp\\htdocs\\CreditCard\\index.php:16\nStack trace:\n#0 C:\\xampp\\htdocs\\CreditCard\\index.php(16): mysqli_query(Object(mysqli), 'INSERT INTO reg...')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\CreditCard\\index.php on line 16, referer: http://localhost/CreditCard/
+[Thu Sep 15 02:15:19.575298 2022] [ssl:warn] [pid 12420:tid 332] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 02:15:19.622174 2022] [core:warn] [pid 12420:tid 332] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Sep 15 02:15:19.622174 2022] [ssl:warn] [pid 12420:tid 332] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 02:15:19.669049 2022] [mpm_winnt:notice] [pid 12420:tid 332] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 configured -- resuming normal operations
+[Thu Sep 15 02:15:19.669049 2022] [mpm_winnt:notice] [pid 12420:tid 332] AH00456: Apache Lounge VS16 Server built: Mar 16 2022 11:26:15
+[Thu Sep 15 02:15:19.669049 2022] [core:notice] [pid 12420:tid 332] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Sep 15 02:15:19.669049 2022] [mpm_winnt:notice] [pid 12420:tid 332] AH00418: Parent: Created child process 10056
+[Thu Sep 15 02:15:20.200299 2022] [ssl:warn] [pid 10056:tid 324] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 02:15:20.247175 2022] [ssl:warn] [pid 10056:tid 324] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 02:15:20.294050 2022] [mpm_winnt:notice] [pid 10056:tid 324] AH00354: Child: Starting 150 worker threads.
+[Thu Sep 15 02:18:47.829370 2022] [ssl:warn] [pid 12388:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 02:18:47.876243 2022] [core:warn] [pid 12388:tid 328] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Sep 15 02:18:47.876243 2022] [ssl:warn] [pid 12388:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 02:18:47.923137 2022] [mpm_winnt:notice] [pid 12388:tid 328] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 configured -- resuming normal operations
+[Thu Sep 15 02:18:47.923137 2022] [mpm_winnt:notice] [pid 12388:tid 328] AH00456: Apache Lounge VS16 Server built: Mar 16 2022 11:26:15
+[Thu Sep 15 02:18:47.923137 2022] [core:notice] [pid 12388:tid 328] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Sep 15 02:18:47.923137 2022] [mpm_winnt:notice] [pid 12388:tid 328] AH00418: Parent: Created child process 5364
+[Thu Sep 15 02:18:48.470014 2022] [ssl:warn] [pid 5364:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 02:18:48.516888 2022] [ssl:warn] [pid 5364:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 02:18:48.548123 2022] [mpm_winnt:notice] [pid 5364:tid 328] AH00354: Child: Starting 150 worker threads.
+[Thu Sep 15 02:21:45.310427 2022] [ssl:warn] [pid 6156:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 02:21:45.357303 2022] [core:warn] [pid 6156:tid 328] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Sep 15 02:21:45.357303 2022] [ssl:warn] [pid 6156:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 02:21:45.388552 2022] [mpm_winnt:notice] [pid 6156:tid 328] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 configured -- resuming normal operations
+[Thu Sep 15 02:21:45.388552 2022] [mpm_winnt:notice] [pid 6156:tid 328] AH00456: Apache Lounge VS16 Server built: Mar 16 2022 11:26:15
+[Thu Sep 15 02:21:45.388552 2022] [core:notice] [pid 6156:tid 328] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Sep 15 02:21:45.404178 2022] [mpm_winnt:notice] [pid 6156:tid 328] AH00418: Parent: Created child process 13724
+[Thu Sep 15 02:21:45.956971 2022] [ssl:warn] [pid 13724:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 02:21:46.003864 2022] [ssl:warn] [pid 13724:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 02:21:46.035114 2022] [mpm_winnt:notice] [pid 13724:tid 328] AH00354: Child: Starting 150 worker threads.
+[Thu Sep 15 16:04:35.869404 2022] [ssl:warn] [pid 8716:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 16:04:35.944691 2022] [core:warn] [pid 8716:tid 328] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Sep 15 16:04:35.947709 2022] [ssl:warn] [pid 8716:tid 328] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 16:04:36.003721 2022] [mpm_winnt:notice] [pid 8716:tid 328] AH00455: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 configured -- resuming normal operations
+[Thu Sep 15 16:04:36.003721 2022] [mpm_winnt:notice] [pid 8716:tid 328] AH00456: Apache Lounge VS16 Server built: Mar 16 2022 11:26:15
+[Thu Sep 15 16:04:36.003721 2022] [core:notice] [pid 8716:tid 328] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Sep 15 16:04:36.014692 2022] [mpm_winnt:notice] [pid 8716:tid 328] AH00418: Parent: Created child process 3640
+[Thu Sep 15 16:04:36.759417 2022] [ssl:warn] [pid 3640:tid 324] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 16:04:36.826386 2022] [ssl:warn] [pid 3640:tid 324] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 16:04:36.890408 2022] [mpm_winnt:notice] [pid 3640:tid 324] AH00354: Child: Starting 150 worker threads.
+[Thu Sep 15 16:10:11.429112 2022] [php:warn] [pid 3640:tid 1864] [client ::1:63006] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question1_send.php on line 4, referer: http://localhost/CreditCard/PatMiller1.php
+[Thu Sep 15 16:10:17.574932 2022] [php:warn] [pid 3640:tid 1864] [client ::1:63008] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question1_send.php on line 4, referer: http://localhost/CreditCard/PatMiller1.php
+[Thu Sep 15 16:10:18.290342 2022] [php:warn] [pid 3640:tid 1864] [client ::1:63008] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question1_send.php on line 4, referer: http://localhost/CreditCard/PatMiller1.php
+[Thu Sep 15 16:10:19.471273 2022] [php:warn] [pid 3640:tid 1864] [client ::1:63008] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question1_send.php on line 4, referer: http://localhost/CreditCard/PatMiller1.php
+[Thu Sep 15 16:10:43.999344 2022] [php:warn] [pid 3640:tid 1864] [client ::1:63014] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question2_send.php on line 4, referer: http://localhost/CreditCard/PatMiller2.php
+[Thu Sep 15 16:10:54.260136 2022] [php:warn] [pid 3640:tid 1856] [client ::1:63017] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question3_send.php on line 4, referer: http://localhost/CreditCard/PatMiller3.php
+[Thu Sep 15 16:11:00.868809 2022] [php:warn] [pid 3640:tid 1856] [client ::1:63020] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question3_send.php on line 4, referer: http://localhost/CreditCard/PatMiller3.php
+[Thu Sep 15 16:11:07.102935 2022] [php:warn] [pid 3640:tid 1856] [client ::1:63022] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question3_send.php on line 4, referer: http://localhost/CreditCard/PatMiller3.php
+[Thu Sep 15 16:11:08.126989 2022] [php:warn] [pid 3640:tid 1856] [client ::1:63022] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question3_send.php on line 4, referer: http://localhost/CreditCard/PatMiller3.php
+[Thu Sep 15 16:11:09.944888 2022] [php:warn] [pid 3640:tid 1856] [client ::1:63022] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question3_send.php on line 4, referer: http://localhost/CreditCard/PatMiller3.php
+[Thu Sep 15 16:11:20.805290 2022] [php:warn] [pid 3640:tid 1864] [client ::1:63026] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question4_send.php on line 4, referer: http://localhost/CreditCard/PatMiller4.php
+[Thu Sep 15 16:11:30.446379 2022] [php:warn] [pid 3640:tid 1864] [client ::1:63029] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question4_send.php on line 4, referer: http://localhost/CreditCard/PatMiller4.php
+[Thu Sep 15 16:11:45.493420 2022] [php:warn] [pid 3640:tid 1864] [client ::1:63031] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question4_send.php on line 4, referer: http://localhost/CreditCard/PatMiller4.php
+[Thu Sep 15 16:12:05.344719 2022] [php:warn] [pid 3640:tid 1856] [client ::1:63034] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question5_send.php on line 4, referer: http://localhost/CreditCard/PatMiller5.php
+[Thu Sep 15 16:12:06.436661 2022] [php:warn] [pid 3640:tid 1856] [client ::1:63034] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question5_send.php on line 4, referer: http://localhost/CreditCard/PatMiller5.php
+[Thu Sep 15 16:12:07.482067 2022] [php:warn] [pid 3640:tid 1856] [client ::1:63034] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question5_send.php on line 4, referer: http://localhost/CreditCard/PatMiller5.php
+[Thu Sep 15 16:12:07.995321 2022] [php:warn] [pid 3640:tid 1856] [client ::1:63034] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question5_send.php on line 4, referer: http://localhost/CreditCard/PatMiller5.php
+[Thu Sep 15 16:12:26.413386 2022] [php:warn] [pid 3640:tid 1864] [client ::1:63046] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question6_send.php on line 4, referer: http://localhost/CreditCard/PatMiller6.php
+[Thu Sep 15 16:12:27.364923 2022] [php:warn] [pid 3640:tid 1864] [client ::1:63046] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question6_send.php on line 4, referer: http://localhost/CreditCard/PatMiller6.php
+[Thu Sep 15 16:12:28.129704 2022] [php:warn] [pid 3640:tid 1864] [client ::1:63046] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question6_send.php on line 4, referer: http://localhost/CreditCard/PatMiller6.php
+[Thu Sep 15 16:12:29.112205 2022] [php:warn] [pid 3640:tid 1864] [client ::1:63046] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question6_send.php on line 4, referer: http://localhost/CreditCard/PatMiller6.php
+[Thu Sep 15 16:12:29.740596 2022] [php:warn] [pid 3640:tid 1864] [client ::1:63046] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question6_send.php on line 4, referer: http://localhost/CreditCard/PatMiller6.php
+[Thu Sep 15 16:12:39.591216 2022] [php:warn] [pid 3640:tid 1856] [client ::1:63068] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question7_send.php on line 4, referer: http://localhost/CreditCard/PatMiller7.php
+[Thu Sep 15 16:12:52.374409 2022] [php:warn] [pid 3640:tid 1856] [client ::1:63071] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question7_send.php on line 4, referer: http://localhost/CreditCard/PatMiller7.php
+[Thu Sep 15 16:12:55.398250 2022] [php:warn] [pid 3640:tid 1856] [client ::1:63071] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question7_send.php on line 4, referer: http://localhost/CreditCard/PatMiller7.php
+[Thu Sep 15 16:13:05.039053 2022] [php:warn] [pid 3640:tid 1856] [client ::1:63074] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question7_send.php on line 4, referer: http://localhost/CreditCard/PatMiller7.php
+[Thu Sep 15 16:13:06.481823 2022] [php:warn] [pid 3640:tid 1856] [client ::1:63074] PHP Warning:  Undefined array key "que" in C:\\xampp\\htdocs\\CreditCard\\question7_send.php on line 4, referer: http://localhost/CreditCard/PatMiller7.php

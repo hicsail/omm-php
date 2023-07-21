@@ -1,0 +1,157 @@
+InnoDB: using atomic writes.
+2022-04-24 16:35:32 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-24 16:35:32 0 [Note] InnoDB: Uses event mutexes
+2022-04-24 16:35:32 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-24 16:35:32 0 [Note] InnoDB: Number of pools: 1
+2022-04-24 16:35:32 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-24 16:35:32 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-24 16:35:32 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-24 16:35:32 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-24 16:35:32 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-24 16:35:32 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-24 16:35:32 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-24 16:35:32 0 [Note] InnoDB: Waiting for purge to start
+2022-04-24 16:35:32 0 [Note] InnoDB: 10.4.6 started; log sequence number 294606; transaction id 138
+2022-04-24 16:35:32 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-24 16:35:32 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-24 16:35:32 0 [Note] Server socket created on IP: '::'.
+InnoDB: using atomic writes.
+2022-05-07 20:09:54 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-07 20:09:54 0 [Note] InnoDB: Uses event mutexes
+2022-05-07 20:09:54 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-07 20:09:54 0 [Note] InnoDB: Number of pools: 1
+2022-05-07 20:09:54 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-05-07 20:09:54 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-05-07 20:09:54 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-07 20:09:54 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=294952
+2022-05-07 20:09:55 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-05-07 20:09:55 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-05-07 20:09:55 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-05-07 20:09:55 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-05-07 20:09:55 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-05-07 20:09:55 0 [Note] InnoDB: Waiting for purge to start
+2022-05-07 20:09:55 0 [Note] InnoDB: 10.4.6 started; log sequence number 294961; transaction id 151
+2022-05-07 20:09:55 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-05-07 20:09:55 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-05-07 20:09:55 0 [Note] Server socket created on IP: '::'.
+IInnnnooDDBB::  uussiinngg  aattoommiicc w rwirtiets.
+es.
+22002222--0909-1-21 21 61:61:313::1133  00  [[NNoottee]]  IInnnnooDDBB::  MMuutteexxeess  aanndd  rrww__lloockcsk su sues eW iWnidnodwosw si nitnerloctkeerldo cfkuendc tfions
+unction2s0
+22-09-2120 212-09-162: 113:61:133 :103  0[ N[oNtoet]e ]I nInnonDoBD: BU:s eUsse se veevnetn mtu tmeuxteesx
+es
+22002222--0099--1122  1166::113:31:31 30  0[ N[Noottee]]  IInnnonDoBDB::  CCoommppresrseesds etdab tlaebs luess eu szel izbl i1b. 21..2.1111
+
+2022-09-12 16:13:13 0 [Note] InnoDB: Number of pools: 1
+2022-09-12 16:13:13 0 [Note] InnoDB: Number of pools: 1
+2022-09-12 16:13:13 0 [Note] InnoDB:2 U0s2i2ng- 0S9S-E122  1c6r:c1332: 1i3n s0t r[uNcottei]o nIsn
+noDB: Using SSE2 crc32 instructions
+2022-09-12 16:13:13 0 [Note] InnoDB: Initializing buffer pool, 2t0o2t2a-l0 9s-12 16:13:13 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+ize = 16M, instances = 1, chunk size = 16M
+2022-09-12 16:13:13 0 [Note] InnoDB: Completed initialization of b2uffer pool
+022-09-12 16:13:13 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-09-12 16:13:13 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:13:13 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:13:13 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1017599
+2022-09-12 16:13:13 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-09-12 16:13:13 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-09-12 16:13:13 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-09-12 16:13:13 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-09-12 16:13:13 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-09-12 16:13:13 0 [Note] InnoDB: Waiting for purge to start
+2022-09-12 16:13:13 0 [Note] InnoDB: 10.4.6 started; log sequence number 1017608; transaction id 1831
+2022-09-12 16:13:13 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-09-12 16:13:13 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-09-12 16:13:13 0 [Note] Server socket created on IP: '::'.
+2022-09-12 16:13:23 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:13:23 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:13:33 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:13:33 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:13:43 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:13:43 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:13:53 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:13:53 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:14:03 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:14:03 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:14:13 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:14:13 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:14:23 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:14:23 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:14:34 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:14:34 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:14:44 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:14:44 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:14:54 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:14:54 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:15:04 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:15:04 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:15:14 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:15:14 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:15:24 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:15:24 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:15:34 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:15:34 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:15:44 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:15:44 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:15:54 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:15:54 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:16:04 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:16:04 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:16:14 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:16:14 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:16:24 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:16:24 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:16:34 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:16:34 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:16:44 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:16:44 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:16:54 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:16:54 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:17:04 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:17:04 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:17:14 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:17:14 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:17:24 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:17:24 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:17:34 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:17:34 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:17:44 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:17:44 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:17:54 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:17:54 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:18:04 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:18:04 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:18:14 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:18:14 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:18:24 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:18:24 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:18:34 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:18:34 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:18:44 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:18:44 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:18:54 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:18:54 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:19:04 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:19:04 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:19:14 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:19:14 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:19:24 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:19:25 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:19:35 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:19:35 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:19:45 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:19:45 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:19:55 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:19:55 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:20:05 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:20:05 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:20:15 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:20:15 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:20:25 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:20:25 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:20:35 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:20:35 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:20:45 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:20:45 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
+2022-09-12 16:20:55 0 [ERROR] InnoDB: Operating system error number 32 in a file operation.
+2022-09-12 16:20:55 0 [ERROR] InnoDB: The error means that another program is using InnoDB's files. This might be a backup or antivirus software or another instance of MySQL. Please close it to get rid of this error.
